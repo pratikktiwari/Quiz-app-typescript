@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: gainsboro;
+  /* color: #ffffff; */
+  padding: 20px;
+  text-align: center;
+}
+header {
+  /*font-weight: bold;*/
+  font-size: 26px;
+  margin-top: 30px;
+}
+#startQuizButton {
+  padding: 10px 30px;
+  border-radius: 3px;
+  background-color: blueviolet;
+  color: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 60px;
+}
+
+#mainDiv {
+  background-color: #fff;
+  width: 800px;
+  margin: auto;
+  padding: 50px;
+}
+.testInstructions {
+  margin-top: 30px;
+}
+.testInstructions ol {
+  margin-top: 20px;
+  text-align: left;
+  padding: 40px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+  opacity: 0.8;
+}

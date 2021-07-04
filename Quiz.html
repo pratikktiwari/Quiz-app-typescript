@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz main page</title>
+	<link rel="stylesheet" href="css/quiz.css"/>
+</head>
+<body>
+	<header>
+		<h1>Programming Quiz</h1>
+		<div id="timerClock">
+			<h3>Time Left</h3>
+			<span id="timerMinute">Minute</span> :
+			<span id="timerSecond">Second</span> 
+			<br/>
+			<!-- [MM : SS] -->
+		</div>
+	</header>
+ 	<section id="quizContainer"></section>
+	<button id="submmitButton">Submit Quiz</button>
+	<section id="pagination">
+		<button id="prevPageButton">Prev Page</button>
+		<button id="nextPageButton">Next Page</button>
+		<div class="pageNumbers" id="pageNumbers">
+			<ol>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ol>
+		</div>
+	</section>
+
+	 <script src="js/QuestionInterface.js"></script>
+	 <script src="js/QuestionList.model.js"></script>
+	 <script src="js/DOMRender.js"></script>
+	 <script src="js/clockTimer.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: auto;
+  background-color: gainsboro;
+  position: relative;
+}
+header {
+  background-color: purple;
+  height: 350px;
+  text-align: center;
+  color: #fff;
+}
+header h1 {
+  padding-top: 30px;
+}
+li {
+  list-style-type: none;
+}
+#quizContainer {
+  background-color: #fff;
+  width: 800px;
+  /* position: absolute; */
+  padding: 30px;
+  margin: -150px auto;
+  border-radius: 5px;
+}
+#pagination {
+  background-color: #fff;
+  width: 800px;
+  padding: 30px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+#pagination button {
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin-left: 10px;
+  background-color: blueviolet;
+  color: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+#pagination button:hover {
+  opacity: 0.7;
+}
+.singleQuestion:nth-child(1) {
+  /* margin-top: -30px; */
+}
+.singleQuestion {
+  width: 600px;
+  /* background-color: rgb(164, 233, 233); */
+  margin: 20px auto 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.questionDiv {
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.optionsUL {
+  margin-left: 15px;
+}
+.optionsUL li {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+input[type="radio"] {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+.pageNumbers {
+  margin-top: 20px;
+}
+.pageNumbers ol li {
+  display: inline-block;
+  background-color: blueviolet;
+  color: #fff;
+  width: 30px;
+  /* height: 30px; */
+  /* cursor: pointer; */
+}
+#pageNumbers ol li:hover {
+  background-color: blue;
+}
+#timerClock {
+  margin-top: 30px;
+}
+#submmitButton {
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin-left: 10px;
+  background-color: blueviolet;
+  color: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+code {
+  font-family: monospace;
+  font-size: 18px;
+  display: block;
+  margin-left: 35px;
+  font-weight: bold;
+  font-style: italic;
+}
+button:hover {
+  opacity: 0.8;
+}
